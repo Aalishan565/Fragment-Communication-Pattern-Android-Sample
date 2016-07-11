@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#58F"
+    android:orientation="vertical"
+    tools:context="com.fragmentcommunicationpatternpoc.Fragment_A">
+
+    <TextView
+        android:id="@+id/tv_fragment_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
