@@ -13,14 +13,15 @@
 
     <fragment
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
         android:name="com.fragmentcommunicationpatternpoc.Fragment_A"
         android:id="@+id/fragment"
         android:layout_gravity="center_horizontal" />
 
     <fragment
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
         android:name="com.fragmentcommunicationpatternpoc.Fragment_B"
         android:id="@+id/fragment2"
         android:layout_gravity="center_horizontal" />

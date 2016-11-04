@@ -32,7 +32,7 @@ public class Fragment_A extends Fragment implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         comm = (CommunicatorInterface) getActivity();
-        comm.putData("btn clicked" + counter++ + "times");
+        comm.putData("Button clicked " + counter++ + " times");
 
 
     }
